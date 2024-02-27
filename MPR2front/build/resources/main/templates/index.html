@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmls:th="http://www.thymeleaf.org" xmlns:xmls="http://www.w3.org/1999/xhtml">
+<head th:replace="~{general.html ::head}"></head>
+<body>
+<h1>Cats</h1>
+<table>
+    <thead>
+    <th>Name</th>
+    <th>Age</th>
+    <th colspan="2">Actions</th>
+    </thead>
+    <tbody th:each="cat:${cats}">
+        <td th:text="${cat.name}"></td>
+        <td th:text="${cat.age}"></td>
+        <td>
+            <a id="update" th:href="@{'http://localhost:8081/index/update/'+*{cat.name}}">Edit</a>
+        </td>
+   <td>
+       <a id="delete" th:href="@{'http://localhost:8081/delete/'+*{cat.name}}"> Delete cat</a>
+   </td>
+
+    </tbody>
+</table>
+<a th:href="@{'http://localhost:8081/index/add'}"> Add new cat</a>
+
+</body>
+</html>

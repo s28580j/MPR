@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pjatk.MPR.MyRestAssureControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-01-30T09:53:49" hostname="MacBook-Pro-Julia.local" time="3.919">
+  <properties/>
+  <testcase name="getCatWhenExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="3.256"/>
+  <testcase name="addCatWhenExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.433"/>
+  <testcase name="updateCatWhenIsNotExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.047"/>
+  <testcase name="addCatWhenNotExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.037"/>
+  <testcase name="getCatWhenNotExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.028"/>
+  <testcase name="deleteCatWhenExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.031"/>
+  <testcase name="getAllCats()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.024"/>
+  <testcase name="updateCatWhenExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.028"/>
+  <testcase name="deleteUserWhenNotExist()" classname="com.pjatk.MPR.MyRestAssureControllerTest" time="0.015"/>
+  <system-out><![CDATA[{
+    "age": 1,
+    "name": "bubi"
+}
+Cat is not found!
+Cat is not found!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pjatk.MPR.selenium.DeleteCatPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-30T09:56:16" hostname="MacBook-Pro-Julia.local" time="3.792">
+  <properties/>
+  <testcase name="fillInAddCatForm()" classname="com.pjatk.MPR.selenium.DeleteCatPageTest" time="3.792"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

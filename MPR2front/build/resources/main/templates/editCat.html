@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="~{general.html ::head}">
+    <title>Edit</title>
+</head>
+<body>
+<h2>Edit Cat</h2>
+<form action="#" th:object="${cat}" th:action="@{'http://localhost:8081/index/update'}" method="POST">
+    <label>cat age:</label>
+    <input id="age" type="number" th:field ="*{age}" th:value="*{name}" min ="0" required>
+    <br>
+    <input type="hidden" th:field="*{name}">
+    <input id="submit-button" type="submit" value="edit cat">
+
+</form>
+</body>
+</html>
